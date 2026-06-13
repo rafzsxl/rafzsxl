@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently Studying at **Senai**
 
-- 🌱 I’m currently learning **Python and JavaScript**
+- 🌱 I’m currently learning **Python, JavaScript and C++**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
