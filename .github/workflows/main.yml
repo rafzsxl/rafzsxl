@@ -1,10 +1,10 @@
 name: generate arcade contribution graphs
 
 on:
-  schedule: # run automatically every 24 hours
+  schedule: # roda automaticamente a cada 24 horas
     - cron: "0 0 * * *"
-  workflow_dispatch: # allows to manually run the job at any time
-  push: # run on every push on the main branch
+  workflow_dispatch: # permite rodar manualmente
+  push: # roda a cada push na branch main
     branches:
       - main
 
@@ -16,12 +16,19 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - name: generate contribution graph SVGs
-        uses: abczanona/pacman-contribution-graph@master
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          github_user_name: ${{ github.repository_owner }}
-          # Comma-separated list of valid game names (default: pacman)
-          games: 'pacman,bomberman'
+          node-version: 20
+
+      - name: Generate contribution graphs
+        run: |
+          mkdir -p dist
+          npx pacman-contribution-graph --game pacman --platform github --username rafzsxl --gametheme github --output dist/pacman-contribution-graph.svg
+          npx pacman-contribution-graph --game pacman --platform github --username rafzsxl --gametheme github-dark --output dist/pacman-contribution-graph-dark.svg
 
       - name: push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
