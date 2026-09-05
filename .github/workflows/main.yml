@@ -27,7 +27,6 @@ jobs:
       - name: Generate contribution graphs
         run: |
           mkdir -p dist
-          npx pacman-contribution-graph --game pacman --platform github --username rafzsxl --gametheme github --output dist/pacman-contribution-graph.svg
           npx pacman-contribution-graph --game pacman --platform github --username rafzsxl --gametheme github-dark --output dist/pacman-contribution-graph-dark.svg
 
       - name: push SVGs to the output branch
