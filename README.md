@@ -52,7 +52,21 @@
 
 ### 📊 GitHub Stats
 
-
 <div align="center">
-  <img alt="Pacman Contribution Graph" src="https://raw.githubusercontent.com/rafzsxl/rafzsxl/output/pacman-contribution-graph-dark.svg?v=3">
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/joaorbm09/joaorbm09/output/pacman-contribution-graph-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/joaorbm09/joaorbm09/output/pacman-contribution-graph.svg"
+  />
+  <img
+    alt="Pac-Man Contribution Graph"
+    src="https://raw.githubusercontent.com/joaorbm09/joaorbm09/output/pacman-contribution-graph.svg"
+  />
+</picture>
+
 </div>
