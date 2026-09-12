@@ -54,6 +54,6 @@
 <div align="center">
   <img 
     alt="Pac-Man Contribution Graph" 
-    src="https://raw.githubusercontent.com/rafzsxl/rafzsxl/output/pacman-contribution-graph-dark.svg" 
+    src="https://raw.githubusercontent.com/rafzsxl/rafzsxl/output/pacman-contribution-graph-dark.svg?v=1" 
   />
 </div>
