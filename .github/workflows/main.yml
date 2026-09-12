@@ -1,41 +1,26 @@
-name: generate arcade contribution graphs
+name: Generate Contribution Graph
+
 on:
-  schedule: # roda automaticamente a cada 24 horas
+  schedule:
     - cron: "0 0 * * *"
-  workflow_dispatch: # permite rodar manualmente
-  push: # roda a cada push na branch main
-    branches:
-      - main
+  workflow_dispatch:
+
 jobs:
   generate:
-    permissions:
-      contents: write
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 10
+    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: generate pacman-contribution-graph.svg
+        uses: Platane/snk/svg-only@v3
         with:
-          node-version: 20
+          github_user_name: rafzsxl
+          outputs: |
+            dist/pacman-contribution-graph.svg?color_holder=#0d1117&color_snake=yellow
+            dist/pacman-contribution-graph-dark.svg?palette=github-dark&color_snake=yellow&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353
 
-      - name: Generate contribution graphs
-        run: |
-          mkdir -p dist
-          npx pacman-contribution-graph \
-            --game pacman \
-            --platform github \
-            --username rafzsxl \
-            --gametheme github-dark \
-            --output dist/pacman-contribution-graph-dark.svg
-
-      - name: Add black background to SVG
-        run: node .github/scripts/add-black-bg.js
-
-      - name: Push SVGs to the output branch
-        uses: crazy-max/ghaction-github-pages@v4
+      - name: push pacman-contribution-graph.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
