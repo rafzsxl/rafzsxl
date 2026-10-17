@@ -25,10 +25,12 @@ Desenvolvedor em formação que equilibra a lógica de linguagens como C++ e Pyt
 
 ---
 
+<div align="center">
+  
 ### 🛠️ Arsenal Técnico
 
 **Linguagens & Web**
-<p align="left">
+<p>
   <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a>
   <a href="https://nodejs.org/" target="_blank"><img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" /></a>
   <a href="https://learn.microsoft.com/dotnet/csharp/" target="_blank"><img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" /></a>
@@ -40,7 +42,7 @@ Desenvolvedor em formação que equilibra a lógica de linguagens como C++ e Pyt
 </p>
 
 **Frameworks, Bancos de Dados & Nuvem**
-<p align="left">
+<p>
   <a href="https://flask.palletsprojects.com/" target="_blank"><img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" /></a>
   <a href="https://www.postgresql.org/" target="_blank"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /></a>
   <a href="https://www.mysql.com/" target="_blank"><img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" /></a>
@@ -50,13 +52,15 @@ Desenvolvedor em formação que equilibra a lógica de linguagens como C++ e Pyt
 </p>
 
 **Sistemas, Hardware & Ferramentas**
-<p align="left">
+<p>
   <a href="https://www.linuxmint.com/" target="_blank"><img src="https://img.shields.io/badge/Linux_Mint-87C03E?style=for-the-badge&logo=linuxmint&logoColor=white" alt="Mint" /></a>
   <a href="https://www.debian.org/" target="_blank"><img src="https://img.shields.io/badge/Debian-A80030?style=for-the-badge&logo=debian&logoColor=white" alt="Debian" /></a>
   <a href="https://www.microsoft.com/windows" target="_blank"><img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows" /></a>
   <a href="https://www.arduino.cc/" target="_blank"><img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino" /></a>
   <a href="https://www.figma.com/" target="_blank"><img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" /></a>
 </p>
+
+</div>
 
 ---
 
@@ -97,6 +101,9 @@ Código resolve problemas, mas repertório se constrói vivendo. Quando fecho o 
 
 ---
 
+<div align="center">
+  
+
 ### 📬 Contato
 
 Sempre aberto para trocar uma ideia sobre tecnologia, projetos ou futebol:
@@ -107,3 +114,5 @@ Sempre aberto para trocar uma ideia sobre tecnologia, projetos ou futebol:
   <a href="mailto:rafaelgomescosta17@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://www.linkedin.com/in/rafael-gomes-costa-8b9560420/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
+
+</div>
