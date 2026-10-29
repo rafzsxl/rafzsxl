@@ -19,9 +19,10 @@ Desenvolvedor em formação que equilibra a lógica de linguagens como C++ e Pyt
 
 ### 🎓 Certificações Oficiais (SENAI SP)
 
-* **Fundamentos de IA e Análise de Dados (40h):** Aplicação de estatística e IA no contexto industrial, manipulação de dados estruturados com Python.
-* **Excel Básico (20h):** Edição e formatação de planilhas, utilização de fórmulas matemáticas, funções condicionais e gráficos.
+* **Excel Básico (4h):** Edição e formatação de planilhas, utilização de fórmulas matemáticas, funções condicionais e gráficos.
 * **Ética na Inteligência Artificial (4h):** Estudo focado nos pilares da IA responsável, marco legal e desafios do futuro da tecnologia.
+* **Fundamentos de IA e Análise de Dados (40h):** Aplicação de estatística e IA no contexto industrial, manipulação de dados estruturados com Python.
+* **Inteligências Artificiais Aplicadas a Programação- ChatGPT (48h):** Aplicação da IA no Dia a Dia da Programação.
 
 ---
 
